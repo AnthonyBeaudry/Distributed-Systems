@@ -1,0 +1,9 @@
+*.idea
+*.iml
+*.class
+*.jar
+*.sh
+Makefile
+TCP_Travel_Reservation_System
+tiapp
+tests
