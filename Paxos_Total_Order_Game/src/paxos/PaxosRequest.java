@@ -1,4 +1,4 @@
-package comp512st.paxos;
+package src.paxos;
 
 import java.io.Serializable;
 import java.util.HashSet;

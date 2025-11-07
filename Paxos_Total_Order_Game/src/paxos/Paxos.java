@@ -1,7 +1,6 @@
-package comp512st.paxos;
+package src.paxos;
 
-import comp512.gcl.*;
-import comp512.utils.*;
+import src.Utilities.*;
 
 import java.io.*;
 import java.util.*;
@@ -248,7 +247,7 @@ public class Paxos
 			{
 				try
 				{
-					GCMessage gclMessage = gcl.readGCMessage();
+					GCMessage gclMessage = (GCMessage) gcl.readGCMessage();
 
 					// Ensure the value is a PaxosRequest
 					if(!(gclMessage.val instanceof PaxosRequest paxosRequest))
